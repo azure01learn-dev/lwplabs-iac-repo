@@ -111,6 +111,12 @@ yes
 terraform destroy -var-file="terraform.tfvars"
 ```
 
+To destroy the infrastructure through GitHub Actions, open the **Actions** tab,
+select **Destroy Terraform Infrastructure**, and choose **Run workflow**. Enter
+`destroy` in the confirmation field to allow the workflow to create and apply a
+Terraform destroy plan. The workflow uses the configured AWS credentials and
+the same Terraform state as the deployment workflow.
+
 ## Module source example
 
 The root repo consumes the shared modules from GitHub:
