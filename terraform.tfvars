@@ -1,5 +1,5 @@
 aws_region                = "us-east-1"
-project_name              = "lwplabs-devops-project"
+project_name              = "andy-devops-project"
 environment               = "stg"
 vpc_cidr                  = "10.0.0.0/16"
 public_subnets            = ["10.0.1.0/24"]
